@@ -1,4 +1,2 @@
 # ignore emacs ~ generated files
 *~
-# ignore .c files
-*.c
