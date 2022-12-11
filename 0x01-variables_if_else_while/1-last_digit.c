@@ -9,14 +9,12 @@
  */
 int main(void)
 {
-	int n;
+	int n,ld;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int ld;
-
-	if (n < 0)
+       	if (n < 0)
 	{
 		ld = abs(n) % 10;
 	}
