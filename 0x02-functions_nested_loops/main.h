@@ -12,5 +12,6 @@ int _abs(int n);
 int  _isalpha(int c);
 int print_last_digit(int n);
 void jack_bauer(void);
+void time_table(void);
 
 #endif
