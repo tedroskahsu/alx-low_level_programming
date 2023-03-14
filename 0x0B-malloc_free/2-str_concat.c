@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * sizeofstr - return length of string
+ * size_of_str - return length of string
  * @s: pointer to the string
  *
  * Return: length of the string
@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	sizes1 = size_of_str(s1);
 	sizes2 = size_of_str(s2);
 
-	s = malloc(sizeof(*s) * (sizes1 + sizes2));
+	s = malloc(sizeof(*s) * (sizes1 + sizes2 + 1));
 
 	if (s == NULL)
 		return (NULL);
