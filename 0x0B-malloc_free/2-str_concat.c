@@ -32,6 +32,13 @@ char *str_concat(char *s1, char *s2)
 	char *ptrs;
 	char *s;
 
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
+	else if (s1 == NULL)
+		return (s2);
+	else if (s2 == NULL)
+		return (s1);
+
 	sizes1 = size_of_str(s1);
 	sizes2 = size_of_str(s2);
 
